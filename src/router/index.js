@@ -54,8 +54,8 @@ const routes = [
 ]
 
 const index = createRouter({
-  // history: createWebHashHistory(), // hash 路由模式
-  history: createWebHistory(), // history 路由模式
+  history: createWebHashHistory(), // hash 路由模式
+  // history: createWebHistory(), // history 路由模式
   routes,
   // 路由滚动行为定制
   scrollBehavior() {
