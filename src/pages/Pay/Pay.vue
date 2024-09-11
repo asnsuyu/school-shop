@@ -43,7 +43,7 @@ watch(timeOut, () => {
 // 本地部署时，路由使用history模式，使用下面这个地址
 const backURLDev = 'http://localhost/paycallback'
 // 线上托管时，路由使用hash模式，使用下面这个地址
-const backURLProd = 'http://localhost:3000/#/paycallback'  // 支付完成后，线上部署回跳的地址
+const backURLProd = 'http://shop.asnpro.icu/paycallback'  // 支付完成后，线上部署回跳的地址
 // 最终的回跳地址
 const backURL = process.env.NODE_ENV !== 'production' ? backURLDev : backURLProd
 
